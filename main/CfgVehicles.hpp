@@ -50,7 +50,7 @@ class CfgVehicles
 	
 	// À≈√ »≈ Ã¿ÿ»Õ€
 	class fow_v_universalCarrier : Tank_F {
-		armor = 150
+		armor = 150;
 
 		LIB_Towing_Distance = 1.7;
 		LIB_Towing_OffsetX_LIB_61k = 0;
@@ -81,10 +81,10 @@ class CfgVehicles
 		};		
 	};
 	class fow_v_lvta2 : Tank_F {
-		armor = 150
+		armor = 150;
 	};
 	class fow_v_sdkfz_250_base : Tank_F {
-		armor = 150
+		armor = 150;
 		
 		LIB_Towing_Distance = 1.5;
 		LIB_Towing_OffsetX_LIB_61k = 0;
@@ -115,7 +115,7 @@ class CfgVehicles
 		};		
 	};
 	class fow_v_sdkfz_251 : Tank_F {
-		armor = 150
+		armor = 150;
 
 		LIB_Towing_Distance = 1.4;
 		LIB_Towing_OffsetX_LIB_61k = 0;
