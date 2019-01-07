@@ -140,11 +140,11 @@ class cfgWeapons
 		magazines[] = {"fow_5Rnd_762x63","LIB_5Rnd_762x63", "LIB_5Rnd_762x63_t"};
 	};
 
-	class fow_w_fg42 : Pistol_Base_F {
-		magazines[] = {"fow_20Rnd_792x57","LIB_20Rnd_792x57"};
+	class fow_w_fg42 : Rifle_Base_F {
+		magazines[] = {"fow_20Rnd_792x57","LIB_20Rnd_792x57",};
 	};
 	class LIB_FG42G : LIB_RIFLE {
-		magazines[] = {"fow_20Rnd_792x57","LIB_20Rnd_792x57"};
+		magazines[] = {"fow_20Rnd_792x57","LIB_20Rnd_792x57",};
 	};
 
 	// Vehicles weapons
