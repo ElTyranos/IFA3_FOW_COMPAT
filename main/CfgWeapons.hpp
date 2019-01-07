@@ -86,23 +86,23 @@ class cfgWeapons
 	};	
 	
 	class fow_w_m1a1_thompson : fow_rifle_base {
-		magazines[] = {"fow_30Rnd_45acp", "fow_30Rnd_45acp_T","LIB_30Rnd_45ACP"};
+		magazines[] = {"fow_30Rnd_45acp", "fow_30Rnd_45acp_T","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP_t"};
 	};	
 	class LIB_M1A1_Thompson : LIB_SMG {
-		magazines[] = {"fow_30Rnd_45acp", "fow_30Rnd_45acp_T","LIB_30Rnd_45ACP"};
+		magazines[] = {"fow_30Rnd_45acp", "fow_30Rnd_45acp_T","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP_t"};
 	};
 	class LIB_M1928_Thompson : LIB_M1A1_Thompson {
-		magazines[] = {"fow_30Rnd_45acp", "fow_30Rnd_45acp_T","LIB_30Rnd_45ACP", "LIB_50Rnd_45ACP"};
+		magazines[] = {"fow_30Rnd_45acp", "fow_30Rnd_45acp_T","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP_t","LIB_50Rnd_45ACP"};
 	};
 	class LIB_M1928A1_Thompson : LIB_M1928_Thompson {
-		magazines[] = {"fow_30Rnd_45acp", "fow_30Rnd_45acp_T","LIB_30Rnd_45ACP"};
+		magazines[] = {"fow_30Rnd_45acp", "fow_30Rnd_45acp_T","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP_t","LIB_50Rnd_45ACP"};
 	};
 	
 	class fow_w_m3 : fow_rifle_base {
-		magazines[] = {"fow_30Rnd_45acp", "fow_30Rnd_45acp_T"};
+		magazines[] = {"fow_30Rnd_45acp", "fow_30Rnd_45acp_T","LIB_30Rnd_M3_GreaseGun_45ACP"};
 	};	
 	class LIB_M3_GreaseGun : LIB_SMG {
-		magazines[] = {"fow_30Rnd_45acp", "fow_30Rnd_45acp_T","LIB_30Rnd_45ACP", "LIB_30Rnd_45ACP_t"};
+		magazines[] = {"fow_30Rnd_45acp", "fow_30Rnd_45acp_T","LIB_30Rnd_M3_GreaseGun_45ACP"};
 	};
 	
 	class fow_w_g43 : fow_rifle_base {
@@ -140,8 +140,8 @@ class cfgWeapons
 		magazines[] = {"fow_5Rnd_762x63","LIB_5Rnd_762x63", "LIB_5Rnd_762x63_t"};
 	};
 
-	class fow_w_fg42 : Pistol_Base_F {
-		magazines[] = {"fow_20Rnd_792x57","LIB_20Rnd_792x57"};
+	class fow_w_fg42 : Rifle_Base_F {
+		magazines[] = {"fow_20Rnd_792x57","LIB_20Rnd_792x57",};
 	};
 	class LIB_FG42G : LIB_RIFLE {
 		magazines[] = {"fow_20Rnd_792x57","LIB_20Rnd_792x57"};
