@@ -8,6 +8,7 @@ class cfgWeapons
 	class LIB_P38;
 	class LIB_LAUNCHER;
 	class LIB_RIFLE;
+	class LIB_SRIFLE;
 	class LIB_LMG;
 	class LIB_SMG;
 	class LIB_PISTOL;
@@ -24,6 +25,9 @@ class cfgWeapons
 		magazines[] = {"lib_5Rnd_792x57", "lib_5Rnd_792x57_t", "lib_5Rnd_792x57_sS", "lib_5Rnd_792x57_SMK","fow_5Rnd_792x57"};
 	};
 	class LIB_K98 : LIB_RIFLE {
+		magazines[] = {"lib_5Rnd_792x57", "lib_5Rnd_792x57_t", "lib_5Rnd_792x57_sS", "lib_5Rnd_792x57_SMK","fow_5Rnd_792x57",};
+	};
+	class LIB_K98ZF39 : LIB_SRIFLE {
 		magazines[] = {"lib_5Rnd_792x57", "lib_5Rnd_792x57_t", "lib_5Rnd_792x57_sS", "lib_5Rnd_792x57_SMK","fow_5Rnd_792x57",};
 	};
 	
@@ -111,6 +115,10 @@ class cfgWeapons
 	class LIB_G43 : LIB_RIFLE {
 		magazines[] = {"lib_10Rnd_792x57","fow_10nd_792x57","lib_5Rnd_792x57","fow_5Rnd_792x57","lib_5Rnd_792x57_t","lib_5Rnd_792x57_sS", "lib_5Rnd_792x57_SMK", "lib_10Rnd_792x57_T", "lib_10Rnd_792x57_T2", "lib_10Rnd_792x57_sS", "lib_10Rnd_792x57_SMK"}; 
 	};
+	
+	class LIB_G41 : LIB_RIFLE {
+		magazines[] = {"LIB_10Rnd_792x57_clip","lib_5Rnd_792x57", "lib_5Rnd_792x57_t", "lib_5Rnd_792x57_sS", "lib_5Rnd_792x57_SMK","fow_5Rnd_792x57"};
+	};
 
 	class fow_w_m1911 : Pistol_Base_F {
 		magazines[] = {"LIB_7Rnd_45ACP","fow_7Rnd_45acp"};
@@ -137,6 +145,9 @@ class cfgWeapons
 		magazines[] = {"LIB_5Rnd_762x63", "LIB_5Rnd_762x63_t","fow_5Rnd_762x63"};
 	};
 	class LIB_M1903A3_Springfield : LIB_RIFLE {
+		magazines[] = {"LIB_5Rnd_762x63", "LIB_5Rnd_762x63_t","fow_5Rnd_762x63"};
+	};
+	class LIB_M1903A4_Springfield : LIB_SRIFLE {
 		magazines[] = {"LIB_5Rnd_762x63", "LIB_5Rnd_762x63_t","fow_5Rnd_762x63"};
 	};
 
