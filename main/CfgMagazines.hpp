@@ -127,7 +127,8 @@ class CfgMagazines
 	class fow_30Rnd_303_bren_mounted : VehicleMagazine {
 		tracersEvery = 3;
 	};	
-	class fow_250Rnd_792x57 : VehicleMagazine {
+	class fow_50Rnd_792x57;
+	class fow_250Rnd_792x57 : fow_50Rnd_792x57 {
 		tracersEvery = 7;
 	};
 };
