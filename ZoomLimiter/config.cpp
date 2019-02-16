@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 1.00;
-		requiredAddons[] = {};//TODO
+		requiredAddons[] = {"fow_weapons_c"};
 	};
 };
 class cfgWeapons {
