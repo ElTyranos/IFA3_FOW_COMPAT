@@ -164,7 +164,7 @@ class cfgWeapons
 		magazineReloadTime = 7;
 		reloadTime = 7;
 	};
-	class fow_w_20mm_kwk38 : CannonCore {
+	class fow_w_20mm_kwk38 : autocannon_Base_F {
 		magazineReloadTime = 7.5;
 		reloadTime = 4;
 	};
