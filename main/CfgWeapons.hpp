@@ -25,10 +25,10 @@ class cfgWeapons
 		magazines[] = {"lib_5Rnd_792x57", "lib_5Rnd_792x57_t", "lib_5Rnd_792x57_sS", "lib_5Rnd_792x57_SMK","fow_5Rnd_792x57"};
 	};
 	class LIB_K98 : LIB_RIFLE {
-		magazines[] = {"lib_5Rnd_792x57", "lib_5Rnd_792x57_t", "lib_5Rnd_792x57_sS", "lib_5Rnd_792x57_SMK","fow_5Rnd_792x57",};
+		magazines[] = {"lib_5Rnd_792x57", "lib_5Rnd_792x57_t", "lib_5Rnd_792x57_sS", "lib_5Rnd_792x57_SMK","fow_5Rnd_792x57"};
 	};
 	class LIB_K98ZF39 : LIB_SRIFLE {
-		magazines[] = {"lib_5Rnd_792x57", "lib_5Rnd_792x57_t", "lib_5Rnd_792x57_sS", "lib_5Rnd_792x57_SMK","fow_5Rnd_792x57",};
+		magazines[] = {"lib_5Rnd_792x57", "lib_5Rnd_792x57_t", "lib_5Rnd_792x57_sS", "lib_5Rnd_792x57_SMK","fow_5Rnd_792x57"};
 	};
 	
 	class fow_w_mg42 : fow_rifle_base {
