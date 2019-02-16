@@ -11,8 +11,8 @@ class CfgPatches
 class cfgWeapons {
 	class Rifle_Base_F;
 	class fow_rifle_base : Rifle_Base_F {
-			opticsZoomMin = 0.4;
-			opticsZoomInit = 1;
-			opticsZoomMax = 0.4;
+		opticsZoomMin = 0.4;
+		opticsZoomInit = 1;
+		opticsZoomMax = 0.4;
 	};
 };
