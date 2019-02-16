@@ -8,7 +8,8 @@ class CfgVehicles
 	class Wheeled_APC_F : Car_F {};
 	class Truck_F : Car_F {};
 		
-	class fow_uk_6Pounder : StaticWeapon {
+	class fow_w_6Pounder;
+	class fow_uk_6Pounder : fow_w_6Pounder {
 		LIB_isTowable = 1;
 		LIB_Towing_OffsetX = 180;
 		LIB_Towing_OffsetY = 180;
@@ -148,8 +149,8 @@ class CfgVehicles
 	
 	// Ã¿ÿ»Õ€
 
-	
-	class fow_v_gmc_usa : Truck_F {
+	class fow_v_gmc;
+	class fow_v_gmc_usa : fow_v_gmc {
 		
 		LIB_Towing_Distance = 1.4;
 		LIB_Towing_OffsetX_LIB_61k = 0;
