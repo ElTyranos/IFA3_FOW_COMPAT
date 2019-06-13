@@ -13,7 +13,7 @@ class CfgVehicles
 		LIB_isTowable = 1;
 		LIB_Towing_OffsetX = 180;
 		LIB_Towing_OffsetY = 180;
-		LIB_Towing_OffsetZ = 2.2;
+		LIB_Towing_OffsetZ = 1.5;
 		LIB_Towing_Wheels = "[""wheel_1_1"",""wheel_2_1""]";
 		LIB_Towing_DetachDirection = 180;
 		lib_attach_pos[] = {0,0,0};
