@@ -17,6 +17,7 @@ class CfgVehicles
 		LIB_Towing_Wheels = "[""wheel_1_1"",""wheel_2_1""]";
 		LIB_Towing_DetachDirection = 180;
 		lib_attach_pos[] = {0,0,0};
+		LIB_Towing_AttachDetection[] = {0,-2,1};
 		
 		class EventHandlers  {
 			class LIB_StaticWeapons {
