@@ -9,14 +9,15 @@ class CfgVehicles
 	class Truck_F : Car_F {};
 		
 	class fow_w_6Pounder;
-	class fow_uk_6Pounder : fow_w_6Pounder {
+	class fow_w_6Pounder_uk : fow_w_6Pounder {
 		LIB_isTowable = 1;
 		LIB_Towing_OffsetX = 180;
 		LIB_Towing_OffsetY = 180;
-		LIB_Towing_OffsetZ = 2.2;
+		LIB_Towing_OffsetZ = 1.5;
 		LIB_Towing_Wheels = "[""wheel_1_1"",""wheel_2_1""]";
 		LIB_Towing_DetachDirection = 180;
 		lib_attach_pos[] = {0,0,0};
+		LIB_Towing_AttachDetection[] = {0,-2,1};
 		
 		class EventHandlers  {
 			class LIB_StaticWeapons {
@@ -27,7 +28,7 @@ class CfgVehicles
 		};		
 	};
 	
-	// Ú‡ÌÍÓ‚
+	// √≤√†√≠√™√Æ√¢
 	class fow_v_cromwell : Tank_F {
 		armor = 400;
 		armorStructural = 100;		
@@ -49,7 +50,7 @@ class CfgVehicles
 		armorStructural = 100;		
 	};
 	
-	// À≈√ »≈ Ã¿ÿ»Õ€
+	// √ã√Ö√É√ä√à√Ö √å√Ä√ò√à√ç√õ
 	class fow_v_universalCarrier : Tank_F {
 		armor = 150;
 
@@ -147,7 +148,7 @@ class CfgVehicles
 		};		
 	};
 	
-	// Ã¿ÿ»Õ€
+	// √å√Ä√ò√à√ç√õ
 
 	class fow_v_gmc;
 	class fow_v_gmc_usa : fow_v_gmc {
